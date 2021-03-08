@@ -1,8 +1,9 @@
 :root{
     --primary-text-color:#757575;
+    --second-text-color:#ffffff;
     --primari-title-color:#212121;
     --accent-color:#2196F3;
-    --primery-bg-color:#E5E5E5;
+    --primery-bg-color:#ffffff;
     --second-bg-color:#F5F4FA;
     --third-bg-color:#2F303A;
     --addres-second-color:rgba(255, 255, 255, 0.6);
@@ -16,3 +17,13 @@ font-family: 'Roboto', sans-serif;
 .logo-web{color: var(--accent-color);}
 .logo-studio{color: var(--second-logo-color);}
 
+.nav a{color: var(--primari-title-color);}
+.nav .current{color: var(--accent-color);}
+.nav a:hover,.nav a:focus{color: var(--accent-color) ;}
+
+.contacts a{color: var(--primary-text-color);}
+.contacts a:hover,.contacts a:focus{color: var(--accent-color);}
+
+/* footer */
+.footer{background-color: var(--third-bg-color);}
+.footer .logo-studio{color: var(--second-text-color);}

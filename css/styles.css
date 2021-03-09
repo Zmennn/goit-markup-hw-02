@@ -8,22 +8,26 @@
     --third-bg-color:#2F303A;
     --addres-second-color:rgba(255, 255, 255, 0.6);
     --second-logo-color:#000000;
+    --third-logo-color:#FFFFFF;
 }
 body{
 font-family: 'Roboto', sans-serif;
 }
-/* header */
+/* logo */
 .logo{font-family: 'Raleway', sans-serif;}
 .logo-web{color: var(--accent-color);}
-.logo-studio{color: var(--second-logo-color);}
+.logo-studio-black{color: var(--second-logo-color);}
+.logo-studio-white{color: var(--third-logo-color);}
 
-.nav a{color: var(--primari-title-color);}
-.nav .current{color: var(--accent-color);}
-.nav a:hover,.nav a:focus{color: var(--accent-color) ;}
-
-.contacts a{color: var(--primary-text-color);}
-.contacts a:hover,.contacts a:focus{color: var(--accent-color);}
+/* header */
+.nav-link{color: var(--primari-title-color);}
+.nav-link.current{color: var(--accent-color);}
+.nav-link:hover,.nav-link:focus{color: var(--accent-color) ;}
+.contacts-head{color: var(--primary-text-color);}
+.contacts-head:hover,.contacts-head:focus{color: var(--accent-color);}
 
 /* footer */
 .footer{background-color: var(--third-bg-color);}
-.footer .logo-studio{color: var(--second-text-color);}
+.town{color: var(--second-text-color);}
+.mail-link{color: var(--addres-second-color);}
+.tel-link{color: var(--addres-second-color);}

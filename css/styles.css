@@ -2,6 +2,7 @@
     --primary-text-color:#757575;
     --second-text-color:#ffffff;
     --primari-title-color:#212121;
+    --second-title-color:#ffffff;
     --accent-color:#2196F3;
     --primery-bg-color:#ffffff;
     --second-bg-color:#F5F4FA;
@@ -31,3 +32,21 @@ font-family: 'Roboto', sans-serif;
 .town{color: var(--second-text-color);}
 .mail-link{color: var(--addres-second-color);}
 .tel-link{color: var(--addres-second-color);}
+
+/* main index */
+/* hero */
+.hero{background-color: var(--third-bg-color);}
+.main-title{color: var(--second-title-color);}
+.hero-button{background-color: var(--accent-color);
+    color: var(--second-text-color) ;}
+/* our-features */
+.our-features-hiddentitle{color: rgba(255, 255, 255,0);}
+.our-features-subtitle{color: var(--primari-title-color);}
+.our-features-text{color: var(--primary-text-color);}
+/* specialization */
+.specialization-title{color: var(--primari-title-color);}
+/* team  */
+.team{background-color: val(--second-bg-color);}
+.team-title{color: var(--primari-title-color);}
+.team-subtitle{color: var(--primari-title-color);}
+.team-text{color: val(--primary-text-color);}

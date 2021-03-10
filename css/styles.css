@@ -33,20 +33,29 @@ font-family: 'Roboto', sans-serif;
 .mail-link{color: var(--addres-second-color);}
 .tel-link{color: var(--addres-second-color);}
 
-/* main index */
-/* hero */
+/* main pg index */
+/*     hero */
 .hero{background-color: var(--third-bg-color);}
 .main-title{color: var(--second-title-color);}
 .hero-button{background-color: var(--accent-color);
     color: var(--second-text-color) ;}
-/* our-features */
+/*    our-features */
 .our-features-hiddentitle{color: rgba(255, 255, 255,0);}
 .our-features-subtitle{color: var(--primari-title-color);}
 .our-features-text{color: var(--primary-text-color);}
 /* specialization */
 .specialization-title{color: var(--primari-title-color);}
-/* team  */
+/*     team  */
 .team{background-color: val(--second-bg-color);}
 .team-title{color: var(--primari-title-color);}
 .team-subtitle{color: var(--primari-title-color);}
 .team-text{color: val(--primary-text-color);}
+
+/* main pg portfolio */
+.portfolio-hiddentitle{color: rgba(255, 255, 255,0);}
+/*    buttons */
+.portfolio-button{background-color: var(--second-bg-color);color: var(--primari-title-color);}
+.portfolio-button:focus,.portfolio-button:hover{background-color: var(--accent-color);color: var(--second-text-color);}
+/*     gallery */
+.gallery h2{color: var(--primari-title-colo);}
+.gallery p{color: var(--primary-text-color) ;}

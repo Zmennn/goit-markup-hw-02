@@ -38,12 +38,15 @@ line-height: 1.14;
 letter-spacing: 0.02em;}
 
 /* footer */
+
 .footer{background-color: var(--third-bg-color);}
 .town{color: var(--second-text-color);}
 .footer-link{color: var(--addres-second-color);}
 .footer-link,.town{font-size: 14px;
 line-height: 1.71;
-letter-spacing: 0.03em;}
+letter-spacing: 0.03em;
+font-family: Roboto;
+font-style: normal;}
 
 /* main pg index */
 /*     hero */

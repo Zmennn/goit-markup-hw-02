@@ -35,7 +35,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;}
-.logo-web{color: var(--accent-color);}
+.logo{color: var(--accent-color);}
 .logo-studio-black{color: var(--second-logo-color);}
 .logo-studio-white{color: var(--primery-bg-color);}
 
@@ -61,6 +61,7 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 font-family: Roboto;
 font-style: normal;}
+.footer-link:focus,.footer-link:hover{color: var(--accent-color);}
 
 /* main pg index */
 /*     hero */

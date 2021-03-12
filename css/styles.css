@@ -1,22 +1,23 @@
 :root{
     --primary-text-color:#757575;
-    --second-text-color:#ffffff;
     --primari-title-color:#212121;
-    --second-title-color:#ffffff;
-    --accent-color:#2196F3;
     --primery-bg-color:#ffffff;
+    --accent-color:#2196F3;
     --second-bg-color:#F5F4FA;
     --third-bg-color:#2F303A;
     --addres-second-color:rgba(255, 255, 255, 0.6);
     --second-logo-color:#000000;
-    --third-logo-color:#FFFFFF;
 }
 body{
 font-family: 'Roboto', sans-serif;
 color: var(--primary-text-color) ;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
 }
 
 a{text-decoration: none;}
+ul{list-style: none;}
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -36,7 +37,7 @@ line-height: 1.19;
 letter-spacing: 0.03em;}
 .logo-web{color: var(--accent-color);}
 .logo-studio-black{color: var(--second-logo-color);}
-.logo-studio-white{color: var(--third-logo-color);}
+.logo-studio-white{color: var(--primery-bg-color);}
 
 /* header */
 .nav-link{color: var(--primari-title-color);}
@@ -53,7 +54,7 @@ letter-spacing: 0.02em;}
 /* footer */
 
 .footer{background-color: var(--third-bg-color);}
-.town{color: var(--second-text-color);}
+.town{color: var(--primery-bg-color);}
 .footer-link{color: var(--addres-second-color);}
 .footer-link,.town{font-size: 14px;
 line-height: 1.71;
@@ -64,7 +65,7 @@ font-style: normal;}
 /* main pg index */
 /*     hero */
 .hero{background-color: var(--third-bg-color);}
-.main-title{color: var(--second-title-color);
+.main-title{color: var(--primery-bg-color);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -72,7 +73,7 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;}
 .hero-button{background-color: var(--accent-color);
-color: var(--second-text-color) ;
+color: var(--primery-bg-color) ;
 cursor: pointer;
 font-weight: bold;
 font-size: 16px;
@@ -88,9 +89,6 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;}
-.our-features-text{font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;}
 
 /*    specialization */
 .specialization-title{color: var(--primari-title-color);
@@ -125,7 +123,7 @@ font-size: 16px;
 line-height: 1,62;
 text-align: center;
 letter-spacing: 0.03em;}
-.portfolio-button:focus,.portfolio-button:hover{background-color: var(--accent-color);color: var(--second-text-color);}
+.portfolio-button:focus,.portfolio-button:hover{background-color: var(--accent-color);color: var(--primery-bg-color);}
 
 /*     gallery */
 .gallery h2{color: var(--primari-title-color);
